@@ -9,6 +9,6 @@
 - **반응형 디자인**: 다양한 화면 크기에서도 가독성 유지  
 
 ## 파일 구조
-├─ index.html # 뼈대 마크업
-├─ style.css # 보라색 테마, 맑은 고딕 폰트 스타일
-└─ script.js # 아코디언 토글 동작# earthsci
+- index.html # 뼈대 마크업
+- style.css # 보라색 테마, 맑은 고딕 폰트 스타일
+-  script.js # 아코디언 토글 동작# earthsci
