@@ -1,8 +1,7 @@
 // script.js
-document.addEventListener('DOMContentLoaded', () => {
-  document.querySelectorAll('.accordion-item').forEach(item => {
-    item.querySelector('.accordion-header').addEventListener('click', () => {
-      item.classList.toggle('active');
-    });
+document.querySelectorAll('.accordion-header').forEach(header => {
+  header.addEventListener('click', () => {
+    const item = header.parentElement;
+    item.classList.toggle('active');
   });
 });
